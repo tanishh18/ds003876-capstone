@@ -1,0 +1,52 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== Data (too large for Git) =====
+# Raw EDF recordings
+*.edf
+
+# MNE-Python FIF files
+*.fif
+
+# NumPy arrays (windowed data, coherence matrices)
+*.npy
+
+# Processed data directories
+ds003876/
+ds003876_processed/
+
+# Large CSVs (optional — remove these lines if you want to track feature CSVs)
+# spectral_features.csv
+# aperiodic_features.csv
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+.env
+
+# ===== Misc =====
+*.log
+*.tmp

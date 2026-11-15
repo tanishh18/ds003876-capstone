@@ -1,0 +1,9 @@
+numpy==1.24.4
+pandas==2.2.1
+pyarrow==14.0.2
+mne==1.12.1
+scipy
+joblib
+specparam
+matplotlib
+jupyter
